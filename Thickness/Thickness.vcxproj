@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF9A5A2F-C999-436E-A5AA-01A20660C15C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Thickness</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Thickness\TypeSizeBase;..\EventsGrid\Viewers;ManagementIOports;../1730;SaveLoadData;ArchiveEvents;Strings;StoredData;PaintMaker;../;../thickness/Global;DebugApp;../FFT;1730;../Thickness\Window;../Lan;../Lan/Include;Compute;DlgOptions;../Dlg;ItemsData;../Graphics;../Viewer;../debug_tools;..\templates;..\DigitalInputOutputBoard;..\Base;AppBase;..\window_tool;Automat</AdditionalIncludeDirectories>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>false</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Thickness\TypeSizeBase;..\EventsGrid\Viewers;ManagementIOports;../1730;SaveLoadData;ArchiveEvents;Strings;StoredData;PaintMaker;../;../thickness/Global;DebugApp;../FFT;1730;../Thickness\Window;../Lan;../Lan/Include;Compute;DlgOptions;../Dlg;ItemsData;../Graphics;../Viewer;../debug_tools;..\templates;..\DigitalInputOutputBoard;..\Base;AppBase;..\window_tool;Automat</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\Resource\clamp.bmp" />
+    <None Include="..\Resource\Clamp1OnBtn.bmp" />
+    <None Include="..\Resource\Clamp2OnBtn.bmp" />
+    <None Include="..\Resource\CycleBtn.bmp" />
+    <None Include="..\Resource\DownArrow.bmp" />
+    <None Include="..\Resource\ExitTubeBtn.bmp" />
+    <None Include="..\Resource\LeftArrow.bmp" />
+    <None Include="..\Resource\MashBtn.bmp" />
+    <None Include="..\Resource\OptionsBtn.bmp" />
+    <None Include="..\Resource\POSTITL.ICO" />
+    <None Include="..\Resource\QueryBtn.bmp" />
+    <None Include="..\Resource\RefreshBtn.bmp" />
+    <None Include="..\Resource\ResetBtn.bmp" />
+    <None Include="..\Resource\RightArrow.bmp" />
+    <None Include="..\Resource\SensorsUnit.bmp" />
+    <None Include="..\Resource\sep.bmp" />
+    <None Include="..\Resource\settings.ico" />
+    <None Include="..\Resource\UpArrow.bmp" />
+    <None Include="..\Resource\upload.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\1730\Device1730.h" />
+    <ClInclude Include="..\Base\Base.hpp" />
+    <ClInclude Include="..\Base\tables.hpp" />
+    <ClInclude Include="..\debug_tools\DebugMess.h" />
+    <ClInclude Include="..\Dlg\dlg.hpp" />
+    <ClInclude Include="..\Dlg\DlgItems.h" />
+    <ClInclude Include="..\Dlg\DlgTemplate.hpp" />
+    <ClInclude Include="..\Dlg\dlg_templates.h" />
+    <ClInclude Include="..\Dlg\EditDlg.h" />
+    <ClInclude Include="..\Dlg\ParamDlg.h" />
+    <ClInclude Include="..\Dlg\ParamDlg.hpp" />
+    <ClInclude Include="..\EventsGrid\Viewers\Grid.h" />
+    <ClInclude Include="..\EventsGrid\Viewers\GridItems.h" />
+    <ClInclude Include="..\FFT\FFT.h" />
+    <ClInclude Include="..\Graphics\BarSeries.h" />
+    <ClInclude Include="..\Graphics\Borders.h" />
+    <ClInclude Include="..\Graphics\Chart.h" />
+    <ClInclude Include="..\Graphics\Chart.hpp" />
+    <ClInclude Include="..\Graphics\ColorLabel.h" />
+    <ClInclude Include="..\Graphics\GridChart.h" />
+    <ClInclude Include="..\Lan\Include\IRshDevice.h" />
+    <ClInclude Include="..\Lan\Include\IRshFactory.h" />
+    <ClInclude Include="..\Lan\Include\Rsh.h" />
+    <ClInclude Include="..\Lan\Include\RshApi.h" />
+    <ClInclude Include="..\Lan\Include\RshConsts.h" />
+    <ClInclude Include="..\Lan\Include\RshDefChk.h" />
+    <ClInclude Include="..\Lan\Include\RshDllClient.h" />
+    <ClInclude Include="..\Lan\Include\RshError.h" />
+    <ClInclude Include="..\Lan\Include\RshErrorDescription.h" />
+    <ClInclude Include="..\Lan\Include\RshMacro.h" />
+    <ClInclude Include="..\Lan\Include\RshStatusCodes.h" />
+    <ClInclude Include="..\Lan\Include\RshTypes.h" />
+    <ClInclude Include="..\Lan\Lan.h" />
+    <ClInclude Include="..\Lan\LanParameters.h" />
+    <ClInclude Include="..\resource.h" />
+    <ClInclude Include="..\templates\macro.hpp" />
+    <ClInclude Include="..\templates\templates.hpp" />
+    <ClInclude Include="..\templates\typelist.hpp" />
+    <ClInclude Include="..\templates\WindowsEventTemplate.hpp" />
+    <ClInclude Include="..\Viewer\ACFViewer.h" />
+    <ClInclude Include="..\Viewer\CorrelationViewer.h" />
+    <ClInclude Include="..\Viewer\LabelMessage.h" />
+    <ClInclude Include="..\Viewer\SensorViewer.h" />
+    <ClInclude Include="..\Viewer\SignalViewer.h" />
+    <ClInclude Include="..\Viewer\ThicknessViewer.h" />
+    <ClInclude Include="..\Viewer\TopLabelViewer.h" />
+    <ClInclude Include="..\Viewer\ZonesViewer.h" />
+    <ClInclude Include="..\window_tool\DlgFiles.h" />
+    <ClInclude Include="..\window_tool\Emptywindow.h" />
+    <ClInclude Include="..\window_tool\HookKey.h" />
+    <ClInclude Include="..\window_tool\InitToolbar.hpp" />
+    <ClInclude Include="..\window_tool\MenuAPI.h" />
+    <ClInclude Include="..\window_tool\message.h" />
+    <ClInclude Include="..\window_tool\Pass.h" />
+    <ClInclude Include="AppBase\AppBase.h" />
+    <ClInclude Include="AppBase\GlobalItems.h" />
+    <ClInclude Include="ArchiveEvents\ArchiveEvents.h" />
+    <ClInclude Include="Automat\Automat.h" />
+    <ClInclude Include="Automat\BitsToTitle.hpp" />
+    <ClInclude Include="Automat\Bos.h" />
+    <ClInclude Include="Automat\Controller.h" />
+    <ClInclude Include="Automat\DialogBeforeCycle.h" />
+    <ClInclude Include="Automat\InOutBits.h" />
+    <ClInclude Include="Automat\MainLoop.h" />
+    <ClInclude Include="Automat\OutBitDown.h" />
+    <ClInclude Include="Automat\ProcMainLoop.h" />
+    <ClInclude Include="Automat\SQEvents.h" />
+    <ClInclude Include="Compute\Compute.h" />
+    <ClInclude Include="Compute\List.hpp" />
+    <ClInclude Include="Compute\MedianFiltre.h" />
+    <ClInclude Include="AppBase\Config.h" />
+    <ClInclude Include="DebugApp\Debug1730.h" />
+    <ClInclude Include="DlgOptions\Dialogs.h" />
+    <ClInclude Include="ItemsData\PrimaryData.h" />
+    <ClInclude Include="ItemsData\ThicknessData.h" />
+    <ClInclude Include="ItemsData\ZonesData.h" />
+    <ClInclude Include="ManagementIOports\DialogsManagmentOptions.h" />
+    <ClInclude Include="ManagementIOports\InputOutputViewer.h" />
+    <ClInclude Include="ManagementIOports\ManagementIOports.h" />
+    <ClInclude Include="ManagementIOports\ManagementIOportsMenu.hpp" />
+    <ClInclude Include="PaintMaker\PaintMaker.h" />
+    <ClInclude Include="SaveLoadData\SaveLoadData.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StoredData\StoredData.h" />
+    <ClInclude Include="Strings\Messages.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Thickness.h" />
+    <ClInclude Include="TypeSizeBase\BaseGridAdditional.hpp" />
+    <ClInclude Include="TypeSizeBase\CycleData.hpp" />
+    <ClInclude Include="TypeSizeBase\EditOperatorsViewer.h" />
+    <ClInclude Include="TypeSizeBase\EditOperatorsWindow.h" />
+    <ClInclude Include="TypeSizeBase\EditTypeSizeViewer.h" />
+    <ClInclude Include="TypeSizeBase\EditTypeSizeViewer.hpp" />
+    <ClInclude Include="TypeSizeBase\EditTypeSizeWindow.h" />
+    <ClInclude Include="TypeSizeBase\OperatorsBaseGrid.h" />
+    <ClInclude Include="TypeSizeBase\ParametersCycle.h" />
+    <ClInclude Include="TypeSizeBase\TypeSizeBase.h" />
+    <ClInclude Include="TypeSizeBase\TypeSizeBaseGrid.h" />
+    <ClInclude Include="Window\DetailedWindow.h" />
+    <ClInclude Include="Window\DetailedWindowMenu.hpp" />
+    <ClInclude Include="Window\ZonesWindowToolBar.h" />
+    <ClInclude Include="Window\MainWindow.h" />
+    <ClInclude Include="Window\MainWindowMenu.hpp" />
+    <ClInclude Include="Window\MainWindowToolBar.h" />
+    <ClInclude Include="Window\MenuItems.h" />
+    <ClInclude Include="Window\SelectTypeSize.h" />
+    <ClInclude Include="Window\ZonesWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\1730\Device1730.cpp" />
+    <ClCompile Include="..\debug_tools\DebugMess.cpp" />
+    <ClCompile Include="..\Dlg\DlgItems.cpp" />
+    <ClCompile Include="..\Dlg\EditDlg.cpp" />
+    <ClCompile Include="..\Dlg\ParamDlg.cpp" />
+    <ClCompile Include="..\Dlg\ParamDlgLan.cpp" />
+    <ClCompile Include="..\Dlg\WorkTimeDlg.cpp" />
+    <ClCompile Include="..\EventsGrid\Viewers\Grid.cpp" />
+    <ClCompile Include="..\EventsGrid\Viewers\GridItems.cpp" />
+    <ClCompile Include="..\FFT\FFT.cpp" />
+    <ClCompile Include="..\Graphics\BarSeries.cpp" />
+    <ClCompile Include="..\Graphics\Borders.cpp" />
+    <ClCompile Include="..\Graphics\Chart.cpp" />
+    <ClCompile Include="..\Graphics\ColorLabel.cpp" />
+    <ClCompile Include="..\Graphics\GridChart.cpp" />
+    <ClCompile Include="..\Lan\Include\RshApi.cpp" />
+    <ClCompile Include="..\Lan\Include\RshDllClient.cpp" />
+    <ClCompile Include="..\Lan\Include\RshError.cpp" />
+    <ClCompile Include="..\Lan\Lan.cpp" />
+    <ClCompile Include="..\Viewer\ACFViewer.cpp" />
+    <ClCompile Include="..\Viewer\CorrelationViewer.cpp" />
+    <ClCompile Include="..\Viewer\LabelMessage.cpp" />
+    <ClCompile Include="..\Viewer\SensorViewer.cpp" />
+    <ClCompile Include="..\Viewer\SignalViewer.cpp" />
+    <ClCompile Include="..\Viewer\ThicknessViewer.cpp" />
+    <ClCompile Include="..\Viewer\TopLabelViewer.cpp" />
+    <ClCompile Include="..\Viewer\ZonesViewer.cpp" />
+    <ClCompile Include="..\window_tool\DlgFiles.cpp" />
+    <ClCompile Include="..\window_tool\EmptyWindow.cpp" />
+    <ClCompile Include="..\window_tool\HookKey.cpp" />
+    <ClCompile Include="..\window_tool\MenuAPI.cpp" />
+    <ClCompile Include="..\window_tool\Pass.cpp" />
+    <ClCompile Include="AppBase\AppBase.cpp" />
+    <ClCompile Include="AppBase\GlobalItems.cpp" />
+    <ClCompile Include="ArchiveEvents\ArchiveEvents.cpp" />
+    <ClCompile Include="Automat\Automat.cpp" />
+    <ClCompile Include="Automat\Bos.cpp" />
+    <ClCompile Include="Automat\Controller.cpp" />
+    <ClCompile Include="Automat\DialogBeforeCycle.cpp" />
+    <ClCompile Include="Automat\InOutBits.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MaxSpeed</Optimization>
+    </ClCompile>
+    <ClCompile Include="Automat\MainLoop.cpp" />
+    <ClCompile Include="Automat\OutBitDown.cpp" />
+    <ClCompile Include="Automat\ProcMainLoop.cpp" />
+    <ClCompile Include="Automat\SQEvents.cpp" />
+    <ClCompile Include="Compute\Compute.cpp" />
+    <ClCompile Include="Compute\MedianFiltre.cpp" />
+    <ClCompile Include="DebugApp\Debug1730.cpp" />
+    <ClCompile Include="DlgOptions\AboutWindow.cpp" />
+    <ClCompile Include="DlgOptions\ACFBorderDlg.cpp" />
+    <ClCompile Include="DlgOptions\AdditionalSettings.cpp" />
+    <ClCompile Include="DlgOptions\CoeficientDlg.cpp" />
+    <ClCompile Include="DlgOptions\ColorsDlg.cpp" />
+    <ClCompile Include="DlgOptions\CoordinateDlg.cpp" />
+    <ClCompile Include="DlgOptions\DeadAreaDlg.cpp" />
+    <ClCompile Include="DlgOptions\Descriptor1730Dlg.cpp" />
+    <ClCompile Include="DlgOptions\InputOutputDlg.cpp" />
+    <ClCompile Include="DlgOptions\ManagementIOportsDlg.cpp" />
+    <ClCompile Include="DlgOptions\MedianFiltreDlg.cpp" />
+    <ClCompile Include="DlgOptions\PaintMakerDlg.cpp" />
+    <ClCompile Include="DlgOptions\SignalsDlg.cpp" />
+    <ClCompile Include="DlgOptions\TresholdsDlg.cpp" />
+    <ClCompile Include="ItemsData\PrimaryData.cpp" />
+    <ClCompile Include="ItemsData\ThicknessData.cpp" />
+    <ClCompile Include="ItemsData\ZonesData.cpp" />
+    <ClCompile Include="ManagementIOports\DialogsManagmentOptions.cpp" />
+    <ClCompile Include="ManagementIOports\InputOutputViewer.cpp" />
+    <ClCompile Include="ManagementIOports\ManagementIOports.cpp" />
+    <ClCompile Include="PaintMaker\PaintMaker.cpp" />
+    <ClCompile Include="SaveLoadData\SaveLoadData.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StoredData\StoredData.cpp" />
+    <ClCompile Include="Strings\Messages.cpp" />
+    <ClCompile Include="Thickness.cpp" />
+    <ClCompile Include="TypeSizeBase\EditOperatorsViewer.cpp" />
+    <ClCompile Include="TypeSizeBase\EditOperatorsWindow.cpp" />
+    <ClCompile Include="TypeSizeBase\EditTypeSizeViewer.cpp" />
+    <ClCompile Include="TypeSizeBase\EditTypeSizeWindow.cpp" />
+    <ClCompile Include="TypeSizeBase\OperatorsBaseGrid.cpp" />
+    <ClCompile Include="TypeSizeBase\ParametersCycle.cpp" />
+    <ClCompile Include="TypeSizeBase\TypeSizeBaseGrid.cpp" />
+    <ClCompile Include="Window\DetailedWindow.cpp" />
+    <ClCompile Include="Window\ZonesWindowToolBar.cpp" />
+    <ClCompile Include="Window\MainWindow.cpp" />
+    <ClCompile Include="Window\MainWindowToolBar.cpp" />
+    <ClCompile Include="Window\MenuItems.cpp" />
+    <ClCompile Include="Window\SelectTypeSize.cpp" />
+    <ClCompile Include="Window\ZonesWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

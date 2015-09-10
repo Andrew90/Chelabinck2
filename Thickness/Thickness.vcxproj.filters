@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Automat">
+      <UniqueIdentifier>{2efcd93c-70de-40e2-a0a2-308093353667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="templates">
+      <UniqueIdentifier>{668fdbe8-5ef1-4c68-8989-d5248980d29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AppBase">
+      <UniqueIdentifier>{41354f61-1aca-459e-986c-6bec7fe84769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window_tool">
+      <UniqueIdentifier>{03055beb-a972-4169-9566-178497d02e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{2c3da673-a95a-4f6c-9336-776b3a903664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices">
+      <UniqueIdentifier>{46e8db60-8729-4abe-85f4-d6ab4f41bf56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\1730">
+      <UniqueIdentifier>{9a64f79d-0fb2-43dc-b361-a6df83404023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{288762d2-139a-44cd-968d-a36830aa5902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{d35c1d61-9985-49be-9d83-282b82b55058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemsData">
+      <UniqueIdentifier>{2d47637e-8b42-4a0c-b985-3c2dd31113b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgTemplates">
+      <UniqueIdentifier>{317b92f2-c364-4312-8b37-b3ed068b7a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgOptions">
+      <UniqueIdentifier>{5cba5c80-cba4-4c4d-aab4-40f7e5af6750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute">
+      <UniqueIdentifier>{0c59e6ed-30c0-4828-8642-e269b2beb13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Lan">
+      <UniqueIdentifier>{53b15007-dbbb-4341-b830-76f6a6767dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFT">
+      <UniqueIdentifier>{954e8b64-73e4-4b6b-8217-d55e04775236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugApp">
+      <UniqueIdentifier>{49ea53ee-e8ac-4fc8-8ec9-037c78053b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\PaintMaker">
+      <UniqueIdentifier>{bd772a1d-8bdb-42fe-89c9-2f95b62bd0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StoredData">
+      <UniqueIdentifier>{91554092-210a-4947-ae65-43c51d246ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArchiveEvents">
+      <UniqueIdentifier>{04a5b215-caaf-4cde-87ac-cdc7de4e5f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{c26617ec-16a8-41fd-838b-0e929db11ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SaveLoadData">
+      <UniqueIdentifier>{7dd404c0-ae53-4c32-968a-4b743ffeeadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{75a166a7-0f04-404d-b62b-8e3b6c402d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManagementIOports">
+      <UniqueIdentifier>{647264eb-3df1-42cb-90e2-fb35ebf11b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\Lan\Include">
+      <UniqueIdentifier>{45d6eb4e-13f7-4864-9529-633ae54a98c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Devices\debug_tools">
+      <UniqueIdentifier>{c98b1985-5d2a-4504-a6a3-27f7e37c7c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TypeSizeBase">
+      <UniqueIdentifier>{636555bc-ff94-4d30-8fda-c74b016e0b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TypeSizeBase\Grid">
+      <UniqueIdentifier>{889945f8-6d3a-427c-98a8-2946ba83a647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\Resource\RefreshBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\sep.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\MashBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\ResetBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\OptionsBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\upload.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\ExitTubeBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\Clamp1OnBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\Clamp2OnBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\CycleBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\QueryBtn.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\LeftArrow.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\RightArrow.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\UpArrow.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\DownArrow.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\SensorsUnit.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\POSTITL.ICO">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\settings.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Resource\clamp.bmp">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thickness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\typelist.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\InOutBits.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\DlgFiles.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\Emptywindow.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\HookKey.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\InitToolbar.hpp">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\MenuAPI.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\message.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\Pass.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MainWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MainWindowMenu.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\debug_tools\DebugMess.h">
+      <Filter>Devices\debug_tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\1730\Device1730.h">
+      <Filter>Devices\1730</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\BarSeries.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\Chart.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\Chart.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\ColorLabel.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\GridChart.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsData\ThicknessData.h">
+      <Filter>ItemsData</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MainWindowToolBar.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\Base.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\tables.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlg\dlg.hpp">
+      <Filter>DlgTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlg\dlg_templates.h">
+      <Filter>DlgTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlg\DlgItems.h">
+      <Filter>DlgTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlg\DlgTemplate.hpp">
+      <Filter>DlgTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlg\EditDlg.h">
+      <Filter>DlgTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlg\ParamDlg.h">
+      <Filter>DlgTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlg\ParamDlg.hpp">
+      <Filter>DlgTemplates</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOptions\Dialogs.h">
+      <Filter>DlgOptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\SelectTypeSize.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailedWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ZonesWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\ZonesViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\SensorViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\ThicknessViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\TopLabelViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\Controller.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Compute.h">
+      <Filter>Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\SignalViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\CorrelationViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\WindowsEventTemplate.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsData\ZonesData.h">
+      <Filter>ItemsData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\LanParameters.h">
+      <Filter>Devices\Lan</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\MainLoop.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsData\PrimaryData.h">
+      <Filter>ItemsData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FFT\FFT.h">
+      <Filter>FFT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\macro.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\MedianFiltre.h">
+      <Filter>Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugApp\Debug1730.h">
+      <Filter>DebugApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\LabelMessage.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\Borders.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MenuItems.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintMaker\PaintMaker.h">
+      <Filter>Devices\PaintMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="StoredData\StoredData.h">
+      <Filter>StoredData</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchiveEvents\ArchiveEvents.h">
+      <Filter>ArchiveEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\Messages.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoadData\SaveLoadData.h">
+      <Filter>SaveLoadData</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\AppBase.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\BitsToTitle.hpp">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\ProcMainLoop.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\GlobalItems.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagementIOports\InputOutputViewer.h">
+      <Filter>ManagementIOports</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagementIOports\ManagementIOports.h">
+      <Filter>ManagementIOports</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagementIOports\ManagementIOportsMenu.hpp">
+      <Filter>ManagementIOports</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagementIOports\DialogsManagmentOptions.h">
+      <Filter>ManagementIOports</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\IRshDevice.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\IRshFactory.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\Rsh.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshConsts.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshDefChk.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshDllClient.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshError.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshMacro.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshStatusCodes.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshTypes.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshApi.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Include\RshErrorDescription.h">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\List.hpp">
+      <Filter>Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase\Config.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ZonesWindowToolBar.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailedWindowMenu.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\Automat.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lan\Lan.h">
+      <Filter>Devices\Lan</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\SQEvents.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\OutBitDown.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\Bos.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Viewer\ACFViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\TypeSizeBase.h">
+      <Filter>TypeSizeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\templates.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\EditTypeSizeWindow.h">
+      <Filter>TypeSizeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EventsGrid\Viewers\Grid.h">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EventsGrid\Viewers\GridItems.h">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\EditTypeSizeViewer.h">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\TypeSizeBaseGrid.h">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\BaseGridAdditional.hpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\EditOperatorsWindow.h">
+      <Filter>TypeSizeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\EditOperatorsViewer.h">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\OperatorsBaseGrid.h">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\ParametersCycle.h">
+      <Filter>TypeSizeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\CycleData.hpp">
+      <Filter>TypeSizeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Automat\DialogBeforeCycle.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSizeBase\EditTypeSizeViewer.hpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thickness.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\InOutBits.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="AppBase\AppBase.cpp">
+      <Filter>AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\DlgFiles.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\EmptyWindow.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\HookKey.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\MenuAPI.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\Pass.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\MainWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\debug_tools\DebugMess.cpp">
+      <Filter>Devices\debug_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\1730\Device1730.cpp">
+      <Filter>Devices\1730</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\BarSeries.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\Chart.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\ColorLabel.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\GridChart.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemsData\ThicknessData.cpp">
+      <Filter>ItemsData</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\MainWindowToolBar.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlg\DlgItems.cpp">
+      <Filter>DlgTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlg\EditDlg.cpp">
+      <Filter>DlgTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlg\ParamDlg.cpp">
+      <Filter>DlgTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\TresholdsDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\AboutWindow.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\SelectTypeSize.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ZonesWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\ZonesViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\SensorViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\ThicknessViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\TopLabelViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\Controller.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Compute.cpp">
+      <Filter>Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\SignalViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\CorrelationViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemsData\ZonesData.cpp">
+      <Filter>ItemsData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlg\ParamDlgLan.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\MainLoop.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemsData\PrimaryData.cpp">
+      <Filter>ItemsData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFT\FFT.cpp">
+      <Filter>FFT</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\CoeficientDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\SignalsDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\MedianFiltre.cpp">
+      <Filter>Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\MedianFiltreDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\DeadAreaDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugApp\Debug1730.cpp">
+      <Filter>DebugApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\LabelMessage.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\Borders.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\MenuItems.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintMaker\PaintMaker.cpp">
+      <Filter>Devices\PaintMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\PaintMakerDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="StoredData\StoredData.cpp">
+      <Filter>StoredData</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\AdditionalSettings.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlg\WorkTimeDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\ColorsDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\InputOutputDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveEvents\ArchiveEvents.cpp">
+      <Filter>ArchiveEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\Messages.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoadData\SaveLoadData.cpp">
+      <Filter>SaveLoadData</Filter>
+    </ClCompile>
+    <ClCompile Include="AppBase\GlobalItems.cpp">
+      <Filter>AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\CoordinateDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailedWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\ProcMainLoop.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagementIOports\InputOutputViewer.cpp">
+      <Filter>ManagementIOports</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagementIOports\ManagementIOports.cpp">
+      <Filter>ManagementIOports</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\ManagementIOportsDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagementIOports\DialogsManagmentOptions.cpp">
+      <Filter>ManagementIOports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lan\Include\RshDllClient.cpp">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lan\Include\RshError.cpp">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lan\Include\RshApi.cpp">
+      <Filter>Devices\Lan\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\Descriptor1730Dlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ZonesWindowToolBar.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\Automat.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lan\Lan.cpp">
+      <Filter>Devices\Lan</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\SQEvents.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\OutBitDown.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\Bos.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Viewer\ACFViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOptions\ACFBorderDlg.cpp">
+      <Filter>DlgOptions</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSizeBase\EditTypeSizeWindow.cpp">
+      <Filter>TypeSizeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EventsGrid\Viewers\Grid.cpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EventsGrid\Viewers\GridItems.cpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSizeBase\EditTypeSizeViewer.cpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSizeBase\TypeSizeBaseGrid.cpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSizeBase\EditOperatorsWindow.cpp">
+      <Filter>TypeSizeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSizeBase\EditOperatorsViewer.cpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSizeBase\OperatorsBaseGrid.cpp">
+      <Filter>TypeSizeBase\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSizeBase\ParametersCycle.cpp">
+      <Filter>TypeSizeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Automat\DialogBeforeCycle.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

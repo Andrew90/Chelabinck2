@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="templates">
+      <UniqueIdentifier>{4313910f-b9a2-4695-a7d5-74a389b52dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window_tool">
+      <UniqueIdentifier>{c184379a-cdf1-4798-932b-bc0ec11a2862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{13774651-53d1-47c0-bba9-ca30205b87a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewers">
+      <UniqueIdentifier>{033d7fa4-ad84-4a51-9b60-915bd87c7503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug_tools">
+      <UniqueIdentifier>{0e0b79fb-d378-4f4e-a3ab-aa8637614353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{ac2f724f-6038-489a-9301-867f97c07e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArchiveEvents">
+      <UniqueIdentifier>{30aca484-e77b-405c-9998-3ae769947121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Automat">
+      <UniqueIdentifier>{5315add2-8b89-4719-83c3-257a3d975de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase">
+      <UniqueIdentifier>{43266fd9-27dc-4e73-b02d-e251a80b10b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{81ac7f92-a080-4320-941e-9d866a073cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{1d5847f8-008c-4fc1-8c8c-86fd7499cede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{6b0e168d-5f7b-4c04-ae36-649f9d13cf6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventsGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\DlgFiles.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\EmptyWindow.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\HookKey.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\MenuAPI.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\Pass.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\MainWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewers\Grid.cpp">
+      <Filter>Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewers\GridItems.cpp">
+      <Filter>Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewers\MainGrid.cpp">
+      <Filter>Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\debug_tools\DebugMess.cpp">
+      <Filter>debug_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Thickness\Strings\Messages.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Thickness\ArchiveEvents\ArchiveEvents.cpp">
+      <Filter>ArchiveEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Thickness\Automat\InOutBits.cpp">
+      <Filter>Automat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Thickness\AppBase\AppBase.cpp">
+      <Filter>AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Dialogs.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals\Globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\templates\macro.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\typelist.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\WindowsEventTemplate.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\DlgFiles.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\Emptywindow.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\HookKey.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\InitToolbar.hpp">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\MenuAPI.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\message.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\Pass.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\ToolBarWidth.hpp">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MainWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventsGrid.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewers\Grid.h">
+      <Filter>Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewers\GridItems.h">
+      <Filter>Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewers\MainGrid.h">
+      <Filter>Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\debug_tools\DebugMess.h">
+      <Filter>debug_tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thickness\Strings\Messages.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thickness\ArchiveEvents\ArchiveEvents.h">
+      <Filter>ArchiveEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thickness\Automat\InOutBits.h">
+      <Filter>Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thickness\AppBase\AppBase.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\Base.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\tables.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MainWindowMenu.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Dialogs.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\POSTITL.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

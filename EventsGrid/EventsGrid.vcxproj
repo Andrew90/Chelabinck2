@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B14F8EA-1503-4156-8E15-4883DA0CF903}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EventsGrid</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;Globals;Dialogs;../Lan;..\Base\;..\Thickness\AppBase\;..\Thickness\Strings;..\Thickness\Automat;../Thickness/ArchiveEvents;../Strings;Viewers;../;../templates;../window_tool;Grid;../debug_tools</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;Globals;Dialogs;../Lan;..\Base\;..\Thickness\AppBase\;..\Thickness\Strings;..\Thickness\Automat;../Thickness/ArchiveEvents;../Strings;Viewers;../;../templates;../window_tool;Grid;../debug_tools</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\debug_tools\DebugMess.cpp" />
+    <ClCompile Include="..\Thickness\AppBase\AppBase.cpp" />
+    <ClCompile Include="..\Thickness\ArchiveEvents\ArchiveEvents.cpp" />
+    <ClCompile Include="..\Thickness\Automat\InOutBits.cpp" />
+    <ClCompile Include="..\Thickness\Strings\Messages.cpp" />
+    <ClCompile Include="..\window_tool\DlgFiles.cpp" />
+    <ClCompile Include="..\window_tool\EmptyWindow.cpp" />
+    <ClCompile Include="..\window_tool\HookKey.cpp" />
+    <ClCompile Include="..\window_tool\MenuAPI.cpp" />
+    <ClCompile Include="..\window_tool\Pass.cpp" />
+    <ClCompile Include="Dialogs\Dialogs.cpp" />
+    <ClCompile Include="EventsGrid.cpp" />
+    <ClCompile Include="Globals\Globals.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Viewers\Grid.cpp" />
+    <ClCompile Include="Viewers\GridItems.cpp" />
+    <ClCompile Include="Viewers\MainGrid.cpp" />
+    <ClCompile Include="Window\MainWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Base\Base.hpp" />
+    <ClInclude Include="..\Base\tables.hpp" />
+    <ClInclude Include="..\debug_tools\DebugMess.h" />
+    <ClInclude Include="..\resource.h" />
+    <ClInclude Include="..\templates\macro.hpp" />
+    <ClInclude Include="..\templates\typelist.hpp" />
+    <ClInclude Include="..\templates\WindowsEventTemplate.hpp" />
+    <ClInclude Include="..\Thickness\AppBase\AppBase.h" />
+    <ClInclude Include="..\Thickness\ArchiveEvents\ArchiveEvents.h" />
+    <ClInclude Include="..\Thickness\Automat\InOutBits.h" />
+    <ClInclude Include="..\Thickness\Strings\Messages.h" />
+    <ClInclude Include="..\window_tool\DlgFiles.h" />
+    <ClInclude Include="..\window_tool\Emptywindow.h" />
+    <ClInclude Include="..\window_tool\HookKey.h" />
+    <ClInclude Include="..\window_tool\InitToolbar.hpp" />
+    <ClInclude Include="..\window_tool\MenuAPI.h" />
+    <ClInclude Include="..\window_tool\message.h" />
+    <ClInclude Include="..\window_tool\Pass.h" />
+    <ClInclude Include="..\window_tool\ToolBarWidth.hpp" />
+    <ClInclude Include="Dialogs\Dialogs.h" />
+    <ClInclude Include="EventsGrid.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Viewers\Grid.h" />
+    <ClInclude Include="Viewers\GridItems.h" />
+    <ClInclude Include="Viewers\MainGrid.h" />
+    <ClInclude Include="Window\MainWindow.h" />
+    <ClInclude Include="Window\MainWindowMenu.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\POSTITL.ICO" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{d00d9858-faee-4d8b-a4d5-3b6b8b3190d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewers">
+      <UniqueIdentifier>{1baf764b-9258-4d8c-8551-01825b3a954c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window_tool">
+      <UniqueIdentifier>{82fb219c-14f7-4a55-adf4-a7e67b395416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5e7dbf75-048a-446c-9139-124fa3932cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArchiveEvents">
+      <UniqueIdentifier>{26307327-cc2d-429d-b986-14b2773f531d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug_tools">
+      <UniqueIdentifier>{1e8f312d-d650-4db2-86e0-639a54db5658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{0de00e35-6f6e-4252-a275-a905567d2733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppBase">
+      <UniqueIdentifier>{e9fa7674-063e-45d4-9618-ff42a62c180a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{455b82de-52bb-464c-88d3-bcc6312beef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="templates">
+      <UniqueIdentifier>{6ebfdd41-bc30-4884-bb9d-0e5c05d32b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{4d47a5b7-2893-4401-81b0-f0f225d2cec3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\Resource\POSTITL.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\settings.ico" />
+    <None Include="..\Resource\settings.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputOutPut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MainWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\Emptywindow.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\HookKey.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\InitToolbar.hpp">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\MenuAPI.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\message.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\Pass.h">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\window_tool\ToolBarWidth.hpp">
+      <Filter>window_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewers\InputOutputViewer.h">
+      <Filter>Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thickness\ArchiveEvents\ArchiveEvents.h">
+      <Filter>ArchiveEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\BarSeries.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\Chart.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\Chart.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\ColorLabel.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\GridChart.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thickness\AppBase\AppBase.h">
+      <Filter>AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\Base.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base\tables.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\macro.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\typelist.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\templates\WindowsEventTemplate.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\MainWindowMenu.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\Dialogs.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\debug_tools\DebugMess.h">
+      <Filter>debug_tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputOutPut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\MainWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\EmptyWindow.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\HookKey.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\MenuAPI.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\window_tool\Pass.cpp">
+      <Filter>window_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewers\InputOutputViewer.cpp">
+      <Filter>Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Thickness\ArchiveEvents\ArchiveEvents.cpp">
+      <Filter>ArchiveEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\BarSeries.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\Chart.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\ColorLabel.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\GridChart.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Thickness\AppBase\AppBase.cpp">
+      <Filter>AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\Dialogs.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\debug_tools\DebugMess.cpp">
+      <Filter>debug_tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
