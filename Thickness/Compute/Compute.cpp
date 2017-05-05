@@ -68,8 +68,11 @@ template<class O, class P>struct Compute::__init_offset__
 		p->minOffset[i] = unsigned((Singleton<BorderCredibilityTable>::Instance().items.get<MinimumThicknessPipeWall>().value
 		   - p->coefficientB[i]) / p->coefficientA[i]
 		);
-		double nominalThickness = Singleton<ThresholdsTable>::Instance().items.get<NominalThickness>().value;
-		p->maxOffset[i] = unsigned(1.5 * (nominalThickness - p->coefficientB[i]) / p->coefficientA[i]);
+		//double nominalThickness = Singleton<ThresholdsTable>::Instance().items.get<NominalThickness>().value;
+		//p->maxOffset[i] = unsigned(1.5 * (nominalThickness - p->coefficientB[i]) / p->coefficientA[i]);
+		p->maxOffset[i] = unsigned((Singleton<BorderCredibilityTable>::Instance().items.get<MaximumThicknessPipeWall>().value
+		   - p->coefficientB[i]) / p->coefficientA[i]
+		);
 	}
 };
 template<int N, class P>struct Compute::__init_energy__<MinEnergy<N>, P>
