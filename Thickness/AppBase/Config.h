@@ -1,6 +1,6 @@
 #pragma once
 
-#undef DEBUG_ITEMS
+#define DEBUG_ITEMS
 #define THREAD_PRIORITY
 #undef DISABLE_PASSWORD
 //Работа прижимов
